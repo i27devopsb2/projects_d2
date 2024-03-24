@@ -14,6 +14,7 @@ variable "instances" {
     "ansible" = "e2-medium"
     "sonar" = "e2-medium"
     "docker" = "e2-medium"
+    "node" = "e2-medium"
     }
 }
 
