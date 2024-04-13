@@ -11,3 +11,6 @@
 ## 6 Sonar
 * We created a Quality gate, with code smells as the condition , and made that gate as the default. 
 * Now, when the jenkins build triggers based on the results from jenkins my Sonar should pass/fail, based on the results(Gate results)
+
+
+

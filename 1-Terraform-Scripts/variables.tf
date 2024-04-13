@@ -21,3 +21,7 @@ variable "instances" {
 variable "ports" {
   default = [80, 8080, 8081, 9000]
 }
+
+variable "node_count" {
+  default = 1
+}

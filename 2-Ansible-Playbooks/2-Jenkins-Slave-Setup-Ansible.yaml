@@ -31,20 +31,20 @@
       remote_src: yes
   - name: Move to jdk-17
     command: mv /opt/jdk-17.0.2/ /opt/jdk-17/
-  - name: Create /home/i27k8s10/jenkins folder
+  - name: Create /home/phanisekhar1404/jenkins folder
     file:
-      path: /home/i27k8s10/jenkins
+      path: /home/phanisekhar1404/jenkins
       state: directory
       mode: '0755'
-      owner: i27k8s10
-      group: i27k8s10
+      owner: phanisekhar1404
+      group: phanisekhar1404
   - name: Install Docker 
     apt:
       name: docker.io
       state: present 
-  - name: Add user 'i27k8s10' to docker group
+  - name: Add user 'phanisekhar1404' to docker group
     user:
-      name: i27k8s10
+      name: phanisekhar1404
       groups: docker
       append: yes
 
